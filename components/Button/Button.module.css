@@ -1,0 +1,11 @@
+.button {
+  @apply rounded-lg py-4 px-10 font-exo text-lg font-semibold leading-[22px] transition duration-300 ease-in-out;
+}
+
+.primary {
+  @apply bg-white border-2 border-transparent focus:border-2 hover:border-neon hover:shadow-accentButton focus:border-neon focus:shadow-accentButton hover:bg-blackBlue focus:bg-blackBlue focus:text-white hover:text-white;
+}
+
+.ghost {
+  @apply border-2 border-white text-white hover:border-neon hover:shadow-accentButton focus:border-neon focus:shadow-accentButton;
+}

@@ -1,0 +1,38 @@
+.paragraph {
+  @apply font-exo font-normal text-white;
+}
+
+.sm {
+  /* 14/17 */
+  @apply text-[10px] text-gray md:text-sm md:font-light md:leading-[17px];
+}
+
+.smForm {
+  @apply text-[10px] leading-[12px] text-neon md:text-sm font-light md:leading-[17px];
+}
+
+.lg {
+  /* 18/22 */
+  @apply text-lg font-light leading-[22px];
+}
+
+
+.xl {
+  /* 20/24 */
+  @apply text-sm leading-[17px] md:text-xl md:leading-6;
+}
+
+.xlFAQ {
+  /* 20/24 */
+  @apply text-sm font-light leading-[17px] md:font-normal md:text-xl md:leading-6;
+}
+
+.xxl {
+  /* 22/26 */
+  @apply text-base leading-[19px] text-neon md:text-lg md:leading-[26px];
+}
+
+.xxxl {
+  /* 32/38 */
+  @apply text-lg font-semibold leading-6 tracking-[0.01em] md:text-[32px] md:font-medium md:leading-[38px];
+}

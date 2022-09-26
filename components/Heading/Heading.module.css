@@ -1,0 +1,22 @@
+.h1 {
+  @apply font-cursive text-[32px] uppercase leading-[37px] text-white md:text-7xl md:leading-[80px];
+}
+
+.h2 {
+  @apply relative mx-auto pb-3 text-center font-sansSecondary text-xl font-medium leading-6 text-white after:absolute after:left-[50%] after:bottom-0 after:block after:h-0.5 after:w-[94%] after:translate-x-[-50%] after:bg-white after:content-[''] sm:after:w-[316px] md:pb-12 md:text-4xl md:font-semibold md:leading-[48px] md:after:w-[608px] xl:mx-0 xl:text-left xl:after:left-0 xl:after:translate-x-[0%];
+}
+.center {
+  @apply mx-auto text-center after:left-[50%] after:translate-x-[-50%];
+}
+
+.right {
+  @apply xl:text-right xl:after:left-[100%] xl:after:translate-x-[-100%];
+}
+
+.h3 {
+  @apply font-sansSecondary text-lg font-semibold uppercase leading-6 text-neon md:text-[32px] md:leading-[44px];
+}
+
+.h4 {
+  @apply font-exo text-[32px] font-medium leading-[38px] text-white;
+}

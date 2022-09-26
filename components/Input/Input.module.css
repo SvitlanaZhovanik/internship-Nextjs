@@ -1,0 +1,9 @@
+.labelStyle {
+@apply grid h-[100px] mx-auto w-full sm:w-[443px] md:w-full max-w-[608px] xl:mx-0
+}
+
+.labelText {
+@apply font-exo text-sm font-normal leading-tight text-neon mb-3
+}
+
+

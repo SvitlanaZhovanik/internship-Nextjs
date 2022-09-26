@@ -1,0 +1,47 @@
+.card {
+  @apply relative mx-auto flex h-[192px] w-[192px] items-center justify-center rounded-full border border-white md:h-[286px] md:w-[286px];
+}
+
+.counterWrapper {
+  @apply absolute top-4 right-[2px] flex h-[57px] w-[57px] items-center justify-center rounded-full border-[5px] border-white  bg-lightGray md:h-[62px] md:w-[62px];
+}
+
+.counter {
+  @apply text-xs font-semibold leading-[14px] text-feature md:text-2xl md:leading-[33px];
+}
+
+.cardBody {
+  @apply flex h-[154px] w-[154px] flex-col items-center justify-evenly rounded-full bg-white p-3 transition duration-300 ease-in-out hover:shadow-accentFutureCard md:h-[224px] md:w-[224px];
+}
+
+.icon {
+  @apply h-4 w-4 md:h-8 md:w-8;
+}
+
+.textWrapper {
+  @apply text-center;
+}
+
+.cardHeading {
+  @apply mb-1 text-xs font-semibold leading-[14px] md:text-[22px] md:leading-[26px];
+}
+
+.cardSubTitle {
+  @apply text-xs font-semibold leading-[14px] text-feature  md:text-sm md:leading-[17px];
+}
+
+.cardText {
+  @apply max-w-[110px] text-center text-[10px] font-light leading-3 text-feature md:h-[51px] md:max-w-[153px] md:text-sm md:leading-tight;
+}
+
+.arrowWrapper {
+  @apply absolute top-[50%] right-[-15px] translate-y-[-50%] md:right-[-29px];
+}
+
+.arrow {
+  @apply h-4 w-4 md:h-6 md:w-6;
+}
+
+.hiddenBlock {
+  @apply absolute top-[58.4px] right-[-2px] z-10 h-[35px] w-[9px] rounded-[2.9px] rounded-r-none  bg-primary md:top-[72px] md:right-[-1.4px] md:h-[67px] md:w-[18.2px];
+}

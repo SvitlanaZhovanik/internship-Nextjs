@@ -1,0 +1,15 @@
+.section {
+  @apply relative py-20 md:py-[100px];
+}
+
+.hero {
+  @apply bg-primary py-[72px] sm:py-[80px] md:py-[152px];
+}
+
+.primary {
+  @apply bg-primary;
+}
+
+.secondary {
+  @apply bg-secondary;
+}

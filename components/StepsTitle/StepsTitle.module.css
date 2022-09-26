@@ -1,0 +1,6 @@
+.StepsContainer {
+    @apply flex items-center 
+};
+.TitleSpan{
+    @apply font-exo relative font-semibold text-6xl ml-[12px] h-[60px] mr-[42px] text-white
+}

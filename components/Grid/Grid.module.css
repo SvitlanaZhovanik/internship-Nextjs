@@ -1,0 +1,16 @@
+.col1 {
+  @apply grid grid-cols-1 gap-y-7 sm:gap-x-6 md:grid-cols-2 md:gap-y-12 xl:grid-cols-4;
+}
+
+
+.col2 {
+  @apply grid grid-cols-1 gap-y-5 xl:grid-cols-2 xl:gap-y-12 xl:gap-x-[234px];
+}
+
+.col3 {
+  @apply grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-y-7 sm:gap-x-[66px] md:gap-y-12 md:gap-x-32 xl:grid-cols-3 xl:gap-x-36 xl:gap-y-24;
+}
+
+.col4 {
+  @apply grid grid-cols-1 gap-y-7 md:grid-cols-2 sm:gap-x-6 md:gap-y-12 xl:grid-cols-4;
+}

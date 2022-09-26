@@ -1,0 +1,7 @@
+.cardWrapper {
+  @apply mx-auto flex min-h-[374px] max-w-[280px] flex-col justify-between rounded-lg bg-primary px-[22px] sm:px-7 pt-11 pb-9 transition duration-300 ease-in-out focus-within:shadow-accent hover:shadow-accent sm:max-w-full sm:w-[292px] md:flex;
+}
+
+.cardTitle {
+  @apply mb-7 text-center font-exo text-[32px] font-medium leading-tight text-white;
+}

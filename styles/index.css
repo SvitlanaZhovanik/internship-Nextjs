@@ -1,0 +1,158 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-blackBlue font-normal;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* Views */
+
+.mob-menu-oval {
+  background-position: right -250px top -20px;
+  background-image: url('/images/mob-menu/oval.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 480px) {
+  .mob-menu-oval {
+    background-position: right -200px top -100px;
+  }
+}
+
+textarea::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+textarea::-webkit-scrollbar-track {
+  background-color: #5c666f;
+  border-radius: 20px;
+  margin-block: 1rem;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background-color: #20bcc6;
+  border-radius: 30px;
+}
+@supports (scrollbar-color: #20bcc6 #5c666f) {
+  textarea {
+    scrollbar-color: #20bcc6 #5c666f;
+    scrollbar-width: 0.5rem;
+  }
+}
+
+.custom-checkbox:focus + svg {
+  outline: 1px dotted #20bcc6;
+  outline-offset: 2px;
+}
+
+/* Hero */
+.desc-hero {
+  background-position: right -170px top -20px;
+  background-image: url('/images/mob-menu/oval.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+  @media screen and (min-width: 480px) {
+  .desc-hero {
+    background-image: url('/images/mob-menu/oval.svg'),
+      url('/images/hero/phone-hero.svg');
+    background-position: right -170px top -60px, right -4px top -13px;
+  }
+}
+  @media screen and (min-width: 768px) {
+  .desc-hero {
+    background-image: url('/images/mob-menu/oval.svg'),
+      url('/images/hero/tablet-hero.svg');
+    background-position: right -170px top -60px, right -16px top -13px;
+  }
+}
+  @media screen and (min-width: 1280px) {
+  .desc-hero {
+    background-image: url('/images/hero/desc-hero.svg');
+    background-position: right;
+   background-image: url('/images/mob-menu/oval.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right -200px top -20px;
+  opacity: 30;
+
+}
+  @media screen and (min-width: 480px) {
+    .desc-hero {
+      background-image: url('/images/hero/phone-hero.svg');
+      background-position: center;
+      opacity: 30;
+
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .desc-hero {
+      background-image: url('/images/hero/tablet-hero.svg');
+      background-position: center;
+      opacity: none;
+
+    }
+  }
+  @media screen and (min-width: 1280px) {
+    .desc-hero {
+      background-image: url('/images/hero/desc-hero.svg');
+      background-position: center;
+      opacity: none;
+
+    }
+  }
+}
+.desc-steps {
+  background-image: url('/images/steps/wep-min.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Description */
+.bg-description {
+background-image: url('/images/description/description.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+ @media screen and (min-width: 768px) {
+  .bg-description {
+     background-position: center;
+   }
+ }
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .bg-description {
+    background-image: url('/images/description/description2x.png');
+  }
+}
+
+/* FAQ */
+@media screen and (min-width: 1280px) {
+  .bg-faq {
+background-image: url('/images/faq.svg');
+    background-position: center;
+    background-size: contain;
+    background-position:right;
+    background-repeat: no-repeat;
+  }
+}
