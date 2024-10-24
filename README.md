@@ -8,12 +8,18 @@
 
 - **Основна інформація по структурі та додаткова інформація знаходиться 👉 [тут](./API.md 'Структура')**
 
+## Stack
+ - Next.js
+ - Tailwind.css
+ - React-hook-form
+ - Framer-motion
+
 ## Getting Started
 
 - Склонувати проект локально
 
 ```bash
-git@github.com:GoWeb-Internship/internship.git
+git@github.com:SvitlanaZhovanik/internship-Nextjs.git
 ```
 
 - Встановити залежності для проекта
